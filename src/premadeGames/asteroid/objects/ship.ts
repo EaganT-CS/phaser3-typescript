@@ -5,7 +5,7 @@
  * @license      Digitsensitive
  */
 
-import { Bullet } from "../objects/bullet";
+import { Bullet } from "./bullet";
 import { CONST } from "../const/const";
 
 export class Ship extends Phaser.GameObjects.Graphics {
