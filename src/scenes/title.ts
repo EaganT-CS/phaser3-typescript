@@ -14,8 +14,8 @@ export class TitleScene extends Phaser.Scene {
     }
 
     preload(): void {
-        this.load.image('logo', './src//assets/phaser.png');
-        this.load.image('fire', './src//assets/fire.png');
+        this.load.image('logo', './src/assets/phaser.png');
+        this.load.image('fire', './src/assets/fire.png');
     }
 
     create(): void {
