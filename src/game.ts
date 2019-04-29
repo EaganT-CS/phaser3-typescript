@@ -9,8 +9,12 @@ import { TitleScene } from "./scenes/title";
 
 // main game configuration
 const config: GameConfig = {
-  width: 800,
-  height: 600,
+  scale: {
+    width: 800,
+    height: 600,
+    parent: "game",
+    mode: Phaser.Scale.FIT
+  },
   type: Phaser.AUTO,
   parent: "game",
   scene: TitleScene,
